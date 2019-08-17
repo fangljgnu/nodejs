@@ -5,4 +5,4 @@ const User32 =  ffi.Library('user32', {
                 'GetSystemMenu': ['int', ['int', 'bool']],
                 'DestroyWindow': ['bool', ['int']]
             })
-console.log(User32.DestroyWindow(1000));//返回false123456
+console.log(User32.DestroyWindow(1000));//返回false12
